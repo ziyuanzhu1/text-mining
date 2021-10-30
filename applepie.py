@@ -28,6 +28,8 @@ for word in x:
     else: 
         dict[word] += 1
 
+# print(dict)
+
 #top 10 word count
 sortedDict = sorted(dict.items(), key = lambda y: y[1], reverse = True) #lambda function that takes one parameter y
 for i in range(10):
